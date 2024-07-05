@@ -11,9 +11,7 @@ interface Props {
 function GameCard({ game }: Props) {
   return (
     <>
-      <Card
-        
-      >
+      <Card>
         <Image src={getCroppedImageURL(game.background_image)} />
         <CardBody>
           <Heading fontSize="2xl"> {game.name} </Heading>
