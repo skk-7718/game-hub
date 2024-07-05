@@ -12,10 +12,7 @@ function GameCard({ game }: Props) {
   return (
     <>
       <Card
-        justifySelf={"center"}
-        width="360px"
-        borderRadius={10}
-        overflow={"hidden"}
+        
       >
         <Image src={getCroppedImageURL(game.background_image)} />
         <CardBody>
